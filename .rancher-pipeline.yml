@@ -1,0 +1,8 @@
+stages:
+- name: start
+  steps:
+  - runScriptConfig:
+      image: nodejs
+      shellScript: npm run serve
+timeout: 60
+notification: {}
